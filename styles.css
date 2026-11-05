@@ -930,12 +930,6 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
 .hub-go svg { width: 17px; height: 17px; transition: transform .3s var(--ease); }
 .hub-card:hover .hub-go svg { transform: translateX(4px); }
 
-.hub-card.featured {
-  background: linear-gradient(150deg, var(--green-50), var(--sand-200));
-  border-color: transparent;
-}
-.hub-card.featured .hub-icon { background: var(--white); }
-
 .hub-card.dark {
   background: var(--green-900); border-color: transparent;
   box-shadow: 0 18px 40px -22px rgba(44, 66, 56, .8);
@@ -1047,3 +1041,26 @@ html.js .reveal.is-in { opacity: 1; transform: none; }
   .section { padding-block: 1.5rem; }
   .reveal { opacity: 1 !important; transform: none !important; }
 }
+
+/* ---------- 20. Link in linea nei testi ---------- */
+.section-sub a,
+.prose a,
+.parents-cols a,
+.faq details a,
+.info-block p a {
+  color: var(--green-700);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .25s;
+}
+.section-sub a:hover,
+.prose a:hover,
+.parents-cols a:hover,
+.faq details a:hover,
+.info-block p a:hover { color: var(--clay-dark); }
+
+.section-dark .section-sub a,
+.section-dark .info-block p a { color: var(--green-300); }
+.section-dark .section-sub a:hover,
+.section-dark .info-block p a:hover { color: var(--white); }

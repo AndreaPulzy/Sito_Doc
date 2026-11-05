@@ -61,7 +61,7 @@ poi visita <http://localhost:8788> (per fermare il server: `Ctrl+C`).
 5. **Bambini e adolescenti** — pagina rivolta ai genitori, dai 6 anni in su
 6. **Il percorso** — dal primo contatto alla conclusione, 5 passaggi
 7. **Formazione** — timeline dei titoli, albo, master (da completare)
-8. **Domande frequenti** — 9 FAQ in accordion (fra cui il primo colloquio gratuito)
+8. **Domande frequenti** — 9 FAQ in accordion
 9. **Contatti** — WhatsApp / telefono / email / mappa, orari, avviso emergenze
 
 ## ⚠️ Cose da completare prima di pubblicare
@@ -72,9 +72,11 @@ poi visita <http://localhost:8788> (per fermare il server: `Ctrl+C`).
 | Formazione e footer | **Numero di iscrizione all'albo: 2941**, trovato sul registro pubblico dell'[Ordine Psicologi Regione Campania](https://www.oprc.it/albo/risultati-ricerca/?cognome=Parrotta&nome=Raffaella) (unico risultato per il nome). **Da far confermare alla dott.ssa.** |
 | Partita IVA | Volutamente **non pubblicata** per ora. Quando la vorrai aggiungere, in `contatti.html`/footer e in `privacy.html` c'è un commento HTML nel punto giusto. |
 | Anni dei titoli | 1999–2004 (laurea) e 2006–2010 (specializzazione) ricavati dalle voci LinkedIn parzialmente oscurate: **da confermare**. |
+| Laurea a Torino | Il nuovo testo di "Chi sono" (fornito dalla dott.ssa) non menziona Torino: la voce "Laurea quinquennale — Università degli Studi di Torino" nella pagina Formazione **va confermata o corretta**. |
+| Claim di esclusività | "Unico terapeuta supervisore della provincia di Avellino esperto in EMDR" compare in Chi sono, nei titoli e fra le iscrizioni. È un'affermazione verificabile da terzi: assicurarsi che sia esatta e aggiornata. |
 | Nome della scuola | Il profilo EMDR indica genericamente "Scuola di Psicoterapia Cognitivo-Comportamentale, Napoli": inserire la denominazione esatta. |
 | `formazione.html` — riquadro tratteggiato | Il promemoria "Da completare" su master e corsi **è visibile ai visitatori**: va sostituito con i titoli reali o rimosso prima della pubblicazione. |
-| FAQ costi | Scelta fatta: il prezzo **non** compare sul sito, la FAQ dice che viene detto di persona durante il primo colloquio gratuito. |
+| FAQ costi | Scelta fatta: il prezzo **non** compare sul sito. La FAQ dice che l'onorario viene comunicato al primo contatto, prima di fissare l'appuntamento. Il primo colloquio **non è gratuito**: è una seduta a tutti gli effetti. |
 | `privacy.html` | Testo da completare e far validare. Inserire il nome del provider di hosting. |
 | `<link rel="canonical">` e Open Graph | Sostituire `https://www.raffaellaparrotta.it/` con il dominio reale. |
 | `assets/og-image.jpg` | Immagine 1200×630 px per l'anteprima nelle condivisioni su WhatsApp/Facebook. |
